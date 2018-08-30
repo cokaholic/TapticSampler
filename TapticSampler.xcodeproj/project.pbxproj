@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF121418212E6EA60045C6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF121417212E6EA60045C6CD /* AppDelegate.swift */; };
+		FF12141A212E6EA60045C6CD /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF121419212E6EA60045C6CD /* TopViewController.swift */; };
+		FF12141D212E6EA60045C6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF12141B212E6EA60045C6CD /* Main.storyboard */; };
+		FF12141F212E6EA70045C6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF12141E212E6EA70045C6CD /* Assets.xcassets */; };
+		FF121422212E6EA70045C6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF121420212E6EA70045C6CD /* LaunchScreen.storyboard */; };
+		FF12142D212E6EA70045C6CD /* TapticSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF12142C212E6EA70045C6CD /* TapticSamplerTests.swift */; };
+		FF121438212E6EA70045C6CD /* TapticSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF121437212E6EA70045C6CD /* TapticSamplerUITests.swift */; };
+		FF12144B212E7A410045C6CD /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF121445212E7A410045C6CD /* Nibable.swift */; };
+		FF12144D212E7A410045C6CD /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF121447212E7A410045C6CD /* SwitchTableViewCell.swift */; };
+		FF12144E212E7A410045C6CD /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF121448212E7A410045C6CD /* NSObjectProtocolExtension.swift */; };
+		FF12144F212E7A410045C6CD /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF121449212E7A410045C6CD /* SwitchTableViewCell.xib */; };
+		FF121450212E7A410045C6CD /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF12144A212E7A410045C6CD /* UITableViewExtension.swift */; };
+		FF121456212EA2FD0045C6CD /* PickerViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF121455212EA2FD0045C6CD /* PickerViewTableViewCell.swift */; };
+		FF121458212EA31B0045C6CD /* PickerViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF121457212EA31B0045C6CD /* PickerViewTableViewCell.xib */; };
+		FF3D2D6E213287000019AA20 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D2D6D213287000019AA20 /* HapticFeedback.swift */; };
+		FF4760962136845700307164 /* PeekAndPopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4760952136845700307164 /* PeekAndPopTableViewCell.swift */; };
+		FF4760982136848A00307164 /* PeekAndPopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF4760972136848A00307164 /* PeekAndPopTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF121429212E6EA70045C6CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF12140C212E6EA50045C6CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF121413212E6EA60045C6CD;
+			remoteInfo = TapticSampler;
+		};
+		FF121434212E6EA70045C6CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF12140C212E6EA50045C6CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF121413212E6EA60045C6CD;
+			remoteInfo = TapticSampler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF121414212E6EA60045C6CD /* TapticSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapticSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF121417212E6EA60045C6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF121419212E6EA60045C6CD /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		FF12141C212E6EA60045C6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF12141E212E6EA70045C6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF121421212E6EA70045C6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF121423212E6EA70045C6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF121428212E6EA70045C6CD /* TapticSamplerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapticSamplerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF12142C212E6EA70045C6CD /* TapticSamplerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticSamplerTests.swift; sourceTree = "<group>"; };
+		FF12142E212E6EA70045C6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF121433212E6EA70045C6CD /* TapticSamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapticSamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF121437212E6EA70045C6CD /* TapticSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticSamplerUITests.swift; sourceTree = "<group>"; };
+		FF121439212E6EA70045C6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF121445212E7A410045C6CD /* Nibable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
+		FF121447212E7A410045C6CD /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		FF121448212E7A410045C6CD /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
+		FF121449212E7A410045C6CD /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
+		FF12144A212E7A410045C6CD /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		FF121455212EA2FD0045C6CD /* PickerViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewTableViewCell.swift; sourceTree = "<group>"; };
+		FF121457212EA31B0045C6CD /* PickerViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerViewTableViewCell.xib; sourceTree = "<group>"; };
+		FF3D2D6D213287000019AA20 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		FF4760952136845700307164 /* PeekAndPopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekAndPopTableViewCell.swift; sourceTree = "<group>"; };
+		FF4760972136848A00307164 /* PeekAndPopTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeekAndPopTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF121411212E6EA60045C6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF121425212E6EA70045C6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF121430212E6EA70045C6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF12140B212E6EA50045C6CD = {
+			isa = PBXGroup;
+			children = (
+				FF121415212E6EA60045C6CD /* Products */,
+				FF121416212E6EA60045C6CD /* TapticSampler */,
+				FF12142B212E6EA70045C6CD /* TapticSamplerTests */,
+				FF121436212E6EA70045C6CD /* TapticSamplerUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		FF121415212E6EA60045C6CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF121414212E6EA60045C6CD /* TapticSampler.app */,
+				FF121428212E6EA70045C6CD /* TapticSamplerTests.xctest */,
+				FF121433212E6EA70045C6CD /* TapticSamplerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF121416212E6EA60045C6CD /* TapticSampler */ = {
+			isa = PBXGroup;
+			children = (
+				FF7FAE8321370E3500A69C0B /* Controller */,
+				FF7FAE8621370E7700A69C0B /* Extension */,
+				FF7FAE8521370E6000A69C0B /* Utility */,
+				FF7FAE8421370E4800A69C0B /* View */,
+				FF121417212E6EA60045C6CD /* AppDelegate.swift */,
+				FF12141E212E6EA70045C6CD /* Assets.xcassets */,
+				FF121423212E6EA70045C6CD /* Info.plist */,
+				FF121420212E6EA70045C6CD /* LaunchScreen.storyboard */,
+				FF12141B212E6EA60045C6CD /* Main.storyboard */,
+			);
+			path = TapticSampler;
+			sourceTree = "<group>";
+		};
+		FF12142B212E6EA70045C6CD /* TapticSamplerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF12142E212E6EA70045C6CD /* Info.plist */,
+				FF12142C212E6EA70045C6CD /* TapticSamplerTests.swift */,
+			);
+			path = TapticSamplerTests;
+			sourceTree = "<group>";
+		};
+		FF121436212E6EA70045C6CD /* TapticSamplerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF121439212E6EA70045C6CD /* Info.plist */,
+				FF121437212E6EA70045C6CD /* TapticSamplerUITests.swift */,
+			);
+			path = TapticSamplerUITests;
+			sourceTree = "<group>";
+		};
+		FF7FAE8321370E3500A69C0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF121419212E6EA60045C6CD /* TopViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF7FAE8421370E4800A69C0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF4760952136845700307164 /* PeekAndPopTableViewCell.swift */,
+				FF4760972136848A00307164 /* PeekAndPopTableViewCell.xib */,
+				FF121455212EA2FD0045C6CD /* PickerViewTableViewCell.swift */,
+				FF121457212EA31B0045C6CD /* PickerViewTableViewCell.xib */,
+				FF121447212E7A410045C6CD /* SwitchTableViewCell.swift */,
+				FF121449212E7A410045C6CD /* SwitchTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF7FAE8521370E6000A69C0B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D2D6D213287000019AA20 /* HapticFeedback.swift */,
+				FF121445212E7A410045C6CD /* Nibable.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FF7FAE8621370E7700A69C0B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF121448212E7A410045C6CD /* NSObjectProtocolExtension.swift */,
+				FF12144A212E7A410045C6CD /* UITableViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF121413212E6EA60045C6CD /* TapticSampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF12143C212E6EA70045C6CD /* Build configuration list for PBXNativeTarget "TapticSampler" */;
+			buildPhases = (
+				FF121410212E6EA60045C6CD /* Sources */,
+				FF121411212E6EA60045C6CD /* Frameworks */,
+				FF121412212E6EA60045C6CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapticSampler;
+			productName = TapticSampler;
+			productReference = FF121414212E6EA60045C6CD /* TapticSampler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF121427212E6EA70045C6CD /* TapticSamplerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF12143F212E6EA70045C6CD /* Build configuration list for PBXNativeTarget "TapticSamplerTests" */;
+			buildPhases = (
+				FF121424212E6EA70045C6CD /* Sources */,
+				FF121425212E6EA70045C6CD /* Frameworks */,
+				FF121426212E6EA70045C6CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF12142A212E6EA70045C6CD /* PBXTargetDependency */,
+			);
+			name = TapticSamplerTests;
+			productName = TapticSamplerTests;
+			productReference = FF121428212E6EA70045C6CD /* TapticSamplerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF121432212E6EA70045C6CD /* TapticSamplerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF121442212E6EA70045C6CD /* Build configuration list for PBXNativeTarget "TapticSamplerUITests" */;
+			buildPhases = (
+				FF12142F212E6EA70045C6CD /* Sources */,
+				FF121430212E6EA70045C6CD /* Frameworks */,
+				FF121431212E6EA70045C6CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF121435212E6EA70045C6CD /* PBXTargetDependency */,
+			);
+			name = TapticSamplerUITests;
+			productName = TapticSamplerUITests;
+			productReference = FF121433212E6EA70045C6CD /* TapticSamplerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF12140C212E6EA50045C6CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Keisuke Tatsumi";
+				TargetAttributes = {
+					FF121413212E6EA60045C6CD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FF121427212E6EA70045C6CD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FF121413212E6EA60045C6CD;
+					};
+					FF121432212E6EA70045C6CD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FF121413212E6EA60045C6CD;
+					};
+				};
+			};
+			buildConfigurationList = FF12140F212E6EA50045C6CD /* Build configuration list for PBXProject "TapticSampler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF12140B212E6EA50045C6CD;
+			productRefGroup = FF121415212E6EA60045C6CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF121413212E6EA60045C6CD /* TapticSampler */,
+				FF121427212E6EA70045C6CD /* TapticSamplerTests */,
+				FF121432212E6EA70045C6CD /* TapticSamplerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF121412212E6EA60045C6CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF12141F212E6EA70045C6CD /* Assets.xcassets in Resources */,
+				FF121422212E6EA70045C6CD /* LaunchScreen.storyboard in Resources */,
+				FF12141D212E6EA60045C6CD /* Main.storyboard in Resources */,
+				FF4760982136848A00307164 /* PeekAndPopTableViewCell.xib in Resources */,
+				FF121458212EA31B0045C6CD /* PickerViewTableViewCell.xib in Resources */,
+				FF12144F212E7A410045C6CD /* SwitchTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF121426212E6EA70045C6CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF121431212E6EA70045C6CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF121410212E6EA60045C6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF121418212E6EA60045C6CD /* AppDelegate.swift in Sources */,
+				FF3D2D6E213287000019AA20 /* HapticFeedback.swift in Sources */,
+				FF12144B212E7A410045C6CD /* Nibable.swift in Sources */,
+				FF12144E212E7A410045C6CD /* NSObjectProtocolExtension.swift in Sources */,
+				FF4760962136845700307164 /* PeekAndPopTableViewCell.swift in Sources */,
+				FF121456212EA2FD0045C6CD /* PickerViewTableViewCell.swift in Sources */,
+				FF12144D212E7A410045C6CD /* SwitchTableViewCell.swift in Sources */,
+				FF12141A212E6EA60045C6CD /* TopViewController.swift in Sources */,
+				FF121450212E7A410045C6CD /* UITableViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF121424212E6EA70045C6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF12142D212E6EA70045C6CD /* TapticSamplerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF12142F212E6EA70045C6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF121438212E6EA70045C6CD /* TapticSamplerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF12142A212E6EA70045C6CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF121413212E6EA60045C6CD /* TapticSampler */;
+			targetProxy = FF121429212E6EA70045C6CD /* PBXContainerItemProxy */;
+		};
+		FF121435212E6EA70045C6CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF121413212E6EA60045C6CD /* TapticSampler */;
+			targetProxy = FF121434212E6EA70045C6CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF12141B212E6EA60045C6CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF12141C212E6EA60045C6CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF121420212E6EA70045C6CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF121421212E6EA70045C6CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF12143A212E6EA70045C6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF12143B212E6EA70045C6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF12143D212E6EA70045C6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TapticSampler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.glorydays.TapticSampler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF12143E212E6EA70045C6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TapticSampler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.glorydays.TapticSampler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF121440212E6EA70045C6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TapticSamplerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.glorydays.TapticSamplerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapticSampler.app/TapticSampler";
+			};
+			name = Debug;
+		};
+		FF121441212E6EA70045C6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TapticSamplerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.glorydays.TapticSamplerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapticSampler.app/TapticSampler";
+			};
+			name = Release;
+		};
+		FF121443212E6EA70045C6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TapticSamplerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.glorydays.TapticSamplerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapticSampler;
+			};
+			name = Debug;
+		};
+		FF121444212E6EA70045C6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TapticSamplerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.glorydays.TapticSamplerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapticSampler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF12140F212E6EA50045C6CD /* Build configuration list for PBXProject "TapticSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF12143A212E6EA70045C6CD /* Debug */,
+				FF12143B212E6EA70045C6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF12143C212E6EA70045C6CD /* Build configuration list for PBXNativeTarget "TapticSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF12143D212E6EA70045C6CD /* Debug */,
+				FF12143E212E6EA70045C6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF12143F212E6EA70045C6CD /* Build configuration list for PBXNativeTarget "TapticSamplerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF121440212E6EA70045C6CD /* Debug */,
+				FF121441212E6EA70045C6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF121442212E6EA70045C6CD /* Build configuration list for PBXNativeTarget "TapticSamplerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF121443212E6EA70045C6CD /* Debug */,
+				FF121444212E6EA70045C6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF12140C212E6EA50045C6CD /* Project object */;
+}
